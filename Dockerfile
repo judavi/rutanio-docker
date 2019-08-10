@@ -7,3 +7,5 @@ WORKDIR /rutanio-qt/src
 RUN make -f makefile.unix
 RUN mkdir ~/.rutanio/
 COPY start.sh start.sh
+RUN chmod +x start.sh
+ENTRYPOINT ["./start.sh"]
