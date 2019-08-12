@@ -3,7 +3,7 @@ Docker image for the [rutanio minner](https://github.com/rutanio-sys/rutanio-qt)
 
 To run this image:
 ```bash
-docker run -d -v /home/judavi/rutanioWall.dat:/wallet/wallet.dat r 8
+docker run -d -v /home/judavi/rutanioWall.dat:/wallet/wallet.dat judavi/rutanio 8
 ```
 
 Where
